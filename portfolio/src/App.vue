@@ -1,18 +1,18 @@
 <template>
   <v-app>
-    
+    <PageContainer/>
   </v-app>
 </template>
 
 <script>
-import NavBar from './components/NavBar.vue';
+import PageContainer from './components/PageContainer.vue';
 
 
 export default {
   name: 'App',
 
   components: {
-    NavBar
+    PageContainer
   },
 
   data: () => ({

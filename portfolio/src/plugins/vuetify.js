@@ -18,31 +18,17 @@ import { mdi } from 'vuetify/iconsets/mdi'
 const myCustomLightTheme = {
   dark: false,
   colors: {
-    'background': '#1A1A1A',
-    'buttonbg': '#2F2F2F',
-    'bigtitle': '#42b883',
-    'title': '#FFFFFF',
-    'plaintext': '#D1D1D1' ,
+    'background': '#fffbf5',
   },
 }
 
-const myCustomLightTheme2 = {
-  dark: false,
-  colors: {
-    'background': '#FFFFFF',
-    'buttonbg': '#2F2F2F',
-    'bigtitle': '#42b883',
-    'title': '#FFFFFF',
-    'plaintext': '#D1D1D1' ,
-  },
-}
+
 
 export default createVuetify({
   theme: {
     defaultTheme: 'myCustomLightTheme',
     themes: {
-      myCustomLightTheme,
-      myCustomLightTheme2
+      myCustomLightTheme
     },
   },
 
