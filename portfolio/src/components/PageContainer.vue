@@ -25,6 +25,9 @@
 
       <v-main style="height: 100vh">
         <NavigationBar/>
+        <div class="">
+
+        </div>
       </v-main>
     </v-layout>
   </v-card>
